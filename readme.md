@@ -9,10 +9,11 @@ function divisibleBy(numbers, divisor) {
   }
 return newArr;
 }
-```javascript
-*https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
 
 ```
+*https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
+
+```javascript
 function stringToArray(string){
   return string.split(" ");
 	}
