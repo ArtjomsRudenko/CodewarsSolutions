@@ -38,3 +38,17 @@ function updateLight(current) {
    return "green"}
    }
    ```
+   * https://www.codewars.com/kata/palindrome-strings/train/javascript
+   
+   ```javascript
+   
+   function isPalindrome(line) {
+     
+     let half1 = '';
+     
+      for (let i = line.length -1; i >= 0; i --){
+       half1 += line[i];
+     }
+     return half1 === line ? true : false;
+   
+   ```
