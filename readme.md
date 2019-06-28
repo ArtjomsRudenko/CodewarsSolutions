@@ -66,7 +66,7 @@ function updateLight(current) {
     }
   }
   
-  ```javascript 
+  ```
   
  * https://www.codewars.com/kata/the-feast-of-many-beasts/train/javascript
  
