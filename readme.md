@@ -80,3 +80,12 @@ function updateLight(current) {
  }
  
  ```
+ * https://www.codewars.com/kata/simple-multiplication/train/javascript
+ 
+ ```javascript
+  
+  function simpleMultiplication(number) {
+    return number % 2 === 0  ? number * 8 : number * 9; 
+  }
+  
+  ```
