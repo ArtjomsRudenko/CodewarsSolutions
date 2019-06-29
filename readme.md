@@ -99,9 +99,16 @@ function updateLight(current) {
   }
   
   ``` 
-   * test check out
-   * test again
+  * https://www.codewars.com/kata/sleigh-authentication/train/javascript
   
-  * new solution
+   ```javascript
+   
+   function Sleigh() {}
+   
+   Sleigh.prototype.authenticate = function(name, password) {
+     return name === "Santa Claus" && password === "Ho Ho Ho!"?
+     true : false;
+   }
+   
+   ```
   
-  test
