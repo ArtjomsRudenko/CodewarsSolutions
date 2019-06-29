@@ -99,3 +99,5 @@ function updateLight(current) {
   }
   
   ``` 
+  
+  * new solution
