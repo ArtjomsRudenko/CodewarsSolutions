@@ -101,3 +101,5 @@ function updateLight(current) {
   ``` 
   
   * new solution
+  
+  test
