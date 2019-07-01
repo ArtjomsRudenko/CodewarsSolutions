@@ -111,4 +111,13 @@ function updateLight(current) {
    }
    
    ```
+   * https://www.codewars.com/kata/convert-a-string-to-a-number/train/javascript
+   
+   ```javascript
+   
+   var stringToNumber = function(str){
+     return Number(str);
+   }
+   
+   ```
   
