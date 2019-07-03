@@ -139,4 +139,24 @@ function updateLight(current) {
    return pontoonDistance/youSpeed < sharkDistance/sharkSpeed ? "Alive!" : "Shark Bait!";
  }
  
+ 
  ``` 
+ * https://www.codewars.com/kata/alphabet-symmetry/train/javascript
+ 
+ ```javascript 
+ 
+ function solve(arr){  
+   let alp = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+   let arrN = [];
+     for(let i = 0; i < arr.length; i++){
+       let count = 0;
+         for(let j = 0; j < arr[i].length; j++){
+           if( j === alp.indexOf(arr[i][j].toUpperCase()) ){
+             count++;
+           }
+         }
+         arrN.push(count);
+     }
+   return arrN;
+ };
+```
