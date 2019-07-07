@@ -174,3 +174,18 @@ function arraysSimilar(arr1, arr2) {
   return true;
 }
 ```
+
+
+* https://www.codewars.com/kata/spongebob-meme/train/javascript
+
+```javascript
+
+function spongeMeme(sentence) {
+  let res = '';
+    for(let i = 0; i < sentence.length; i++) {
+      res += (i % 2) ? sentence[i].toLowerCase() : sentence[i].toUpperCase();
+    }
+  return res;
+}
+
+```
