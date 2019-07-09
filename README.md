@@ -214,3 +214,15 @@ function validParentheses(parens) {
 const sayHello = ( name, city, state ) => `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`;
 
 ```
+
+* https://www.codewars.com/kata/sort-the-odd/train/javascript
+
+```javascript
+
+function sortArray(array) {
+  let odd = array.filter(a => a % 2 !== 0).sort((a,b) => a - b);
+  let res = array.map(a => a % 2 !== 0 ? odd.shift() : a);
+  return res;
+}
+
+```
