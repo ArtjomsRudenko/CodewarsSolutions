@@ -226,3 +226,14 @@ function sortArray(array) {
 }
 
 ```
+* https://www.codewars.com/kata/grasshopper-terminal-game-combat-function-1/train/javascript
+
+```javascript
+function combat(health, damage) {
+  let total =  health - damage;
+  if ( total < 0 ){
+    return 0
+  } else { return total}
+}
+
+```
