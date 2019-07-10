@@ -238,3 +238,15 @@ function combat(health, damage) {
 }
 
 ```
+
+* https://www.codewars.com/kata/can-we-divide-it/train/javascript
+
+```javascript
+
+function isDivideBy(number, a, b) {
+ if(number % a === 0 && number % b === 0){
+  return true; 
+ } else {return false}
+}
+
+```
