@@ -266,3 +266,12 @@ function saleHotdogs(n){
 }
 
 ```
+* https://www.codewars.com/kata/beginner-series-number-2-clock/train/javascript
+
+```javascript
+
+function past(h, m, s){
+  return ((h * 60 + m) * 60 + s) * 1000;
+}
+
+```
